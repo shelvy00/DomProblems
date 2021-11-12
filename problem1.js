@@ -1,7 +1,7 @@
 
 
-const btn = document.querySelector("button");
-const name = document.getElementById("name").style.backgroundColor = "red";
+const btn = document.querySelector(".btn");
+const name = document.querySelector(".name");
 
 btn.addEventListener("click", function () {
 	name.style.backgroundColor = "red"
